@@ -49,12 +49,22 @@ Before the training three major steps are carried out:
 * changing brightness level of certain images randomly.
 * Flipping the images laterally for some images randomly.
 
+Photos of camera images adjusted for left and right are shown below:
+
+![][image2]
+![][image3]
+![][image4]
+
 For the training I used MSE of determining the loss and Adam optimizer with a learning rate of 0.001 for 10 epochs.
 
 ## Results
 
 The Training loss and the validation loss were .
 The car was able to drive smoothly on the designated track which was considered a success for the test.
+
+![][image1]
+
+The videos are found on Github repo 
 
 ## Future works
 Further improvement scope is there and here are some ideas:
