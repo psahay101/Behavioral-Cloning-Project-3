@@ -1,5 +1,13 @@
 # Behavioral Cloning project
 
+[//]: # (Image References)
+
+[image1]: ./model.png "Architecture "
+[image2]: ./left.png "left camera"
+[image3]: ./center.png "center camera"
+[image4]: ./right.png "right camera"
+[image5]: ./testdrive1.png "Test drive lane 1"
+
 ## Project Description
 This project is about teaching a car to drive within a lane by training it on several images taken while a human drives a car. So, eventually the goal is to make the car emulate this behavior without just copying the behavior which in the technical terms can be called as overfitting.
 
@@ -30,17 +38,9 @@ In short this is a good model which can serve as a base model on top of which fu
 
 For my project, I changed the model by adding relu on each layer to introduce non linearity, added dropout to counter overfitting, normalized images to help in training by avoiding saturation.
 
-My architecture consists of follows in order:
+Below is a snapshot of my architecture :
 
-* Image normalization
-* Convolution: 5x5, filter: 24, strides: 2x2, activation: RELU
-* Convolution: 5x5, filter: 36, strides: 2x2, activation: RELU
-* Convolution: 5x5, filter: 48, strides: 2x2, activation: RELU
-* Convolution: 3x3, filter: 64, strides: 1x1, activation: RELU
-* Convolution: 3x3, filter: 64, strides: 1x1, activation: RELU
-* Dropout: 0.2
-* Fully connected: neurons: 512
-* Fully connected: neurons: 1 (output)
+![][image1]
 
 ## Model Training
 Before the training three major steps are carried out:
