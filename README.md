@@ -62,7 +62,7 @@ For the training I used MSE of determining the loss and Adam optimizer with a le
 The Training loss and the validation loss were .
 The car was able to drive smoothly on the designated track which was considered a success for the test.
 
-![][image1]
+![][image5]
 
 The videos are found on Github repo 
 
